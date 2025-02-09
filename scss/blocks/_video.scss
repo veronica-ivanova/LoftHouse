@@ -1,5 +1,14 @@
-// .video {
-// }
+.video {
+    position: relative;
+     // декор - римские цифры
+     &::after {
+        content: "IV";
+        left: calc(50% + 555px);
+        transform: translate(-50%, 0%);
+
+        @include decorNumber()
+    }
+}
 
 .video__link {
     position: relative;
