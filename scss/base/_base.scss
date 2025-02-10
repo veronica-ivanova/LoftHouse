@@ -84,6 +84,11 @@
     font-family: $font-accent;
     color: $accent;
     font-weight: 700;
+    
+
+    @include mediaTablet {
+      font-size: 28px;
+    }
 
   }
 
@@ -91,4 +96,8 @@
     color: $accent;
     font-weight: 700;
 
+  }
+
+  .no-scroll {
+    overflow-y: hidden;
   }

@@ -10,6 +10,14 @@
     ),
     linear-gradient(0deg, rgba(36, 43, 51, 0.9), rgba(36, 43, 51, 0.9)),
     url('./../../img/cta/cta-background.jpg'), #c4c4c4;
+
+    @include mediaTablet {
+        padding: 68px 0;
+
+    }
+
+
+    
 }
 
 .cta__title {
@@ -21,6 +29,11 @@
     grid-template-columns: 1fr 1fr;
     gap: 30px;
 
+    @include mediaTablet {
+        grid-template-columns: 1fr;
+
+    }
+
 }
 .cta__text {
     line-height: 1.5;
@@ -28,10 +41,19 @@
     p + p {
         margin-top: 1em;
     }
+
+    @include mediaTablet {
+        font-size: 14px;
+
+    }
 }
 .cta__form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 35px 30px;
+    
+    @include mediaTablet {
+    grid-template-columns: 1fr;
+    }
 
 }

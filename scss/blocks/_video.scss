@@ -1,4 +1,6 @@
 .video {
+    overflow: hidden;
+
     position: relative;
      // декор - римские цифры
      &::after {
@@ -32,10 +34,16 @@
 
 .video__icon {
     position: absolute;
-    z-index: 9;
+    z-index: 8;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+
+    @include mediaTablet {
+        width: 80px;
+        height: 80px;
+            
+    }
 }
 .video__link:hover .video__icon {
     transform: translate(-50%, -50%) scale(1.1);
