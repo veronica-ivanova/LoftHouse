@@ -14,7 +14,6 @@
 
     @include mediaTablet {
         margin-bottom: 44px;
-
     }
 }
 
@@ -26,8 +25,6 @@
 
     @include mediaTablet {
         // grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-        grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-        
+        grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));       
     }
-
 }

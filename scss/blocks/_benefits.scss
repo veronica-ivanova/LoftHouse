@@ -8,10 +8,8 @@
         content: "II";
         left: calc(50% + 555px);
         transform: translate(-50%, 0%);
-        @include decorNumber()
-        
+        @include decorNumber()      
     }
-
 }
 
 
@@ -29,7 +27,6 @@
 
 .benefits__item {
     text-align: center;
-
 }
 
 .benefits__item-img {
@@ -40,7 +37,6 @@
         height: 50px;
         margin-bottom: 20px;
     }
-
 }
 
 .benefits__item-text {
